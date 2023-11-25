@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\ArchitectureApi.Application\ArchitectureApi.Application.csproj" />
     <ProjectReference Include="..\..\Core\ArchitectureApi.Domain\ArchitectureApi.Domain.csproj" />
   </ItemGroup>
 
