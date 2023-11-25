@@ -16,12 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\Infrastructure\ArchitectureApi.Persistence\ArchitectureApi.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure\ArchitectureApi.Persistence\ArchitectureApi.Persistence.csproj" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
